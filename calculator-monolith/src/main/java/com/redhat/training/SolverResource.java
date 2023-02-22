@@ -1,14 +1,10 @@
 package com.redhat.training;
 
-import java.util.List;
-
-import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;
 
-import com.redhat.training.OperationRegistry;
 import com.redhat.training.service.SolverService;
 
 import org.slf4j.Logger;
