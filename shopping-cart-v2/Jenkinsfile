@@ -19,7 +19,8 @@ sh '''
 ./scripts/build-and-push-image.sh \
 -u $QUAY_USR \
 -p $QUAY_PSW \
--b $BUILD_NUMBE'''
+-b $BUILD_NUMBER
+'''
 }
 }
 }
