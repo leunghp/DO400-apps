@@ -52,7 +52,6 @@ sh """
 -t $TAG_TO_DEPLOY
 """
 }
-sh './scripts/redeploy.sh $APP_NAMESPACE'
 }
 }
 }
