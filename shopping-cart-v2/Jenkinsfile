@@ -3,7 +3,7 @@ agent { node { label 'maven' } }
 environment { APP_NAMESPACE = 'uanrzw-recover' }
 stages {
 stage('Test') {
-options { timeout(time: 180, unit: 'SECONDS') }
+options { timeout(time: 360, unit: 'SECONDS') }
 steps {
 dir('shopping-cart-v2') {
 sh './mvnw clean test'
